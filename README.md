@@ -1,6 +1,8 @@
-***BlockChain for dummies***
+***BlockChain Basics***
 
 # This project illustrate the basic concept of how blockchain works, how bitcoin is built on top of that using Node.js
+# link to the course: https://www.udemy.com/build-blockchain
+
 
 ##Scripts:
 To start the blockchain network:
