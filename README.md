@@ -17,3 +17,7 @@ To run test:
 
 To run dev-test:
   - run `npm run dev-test`
+
+
+# TODO!!
+Currently all calls needs to be performed using postman. ( Make sure to work on something better for that)
