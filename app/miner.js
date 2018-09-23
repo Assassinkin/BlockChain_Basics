@@ -5,9 +5,9 @@ class Miner {
   constructor(blockchain, transactionPool, wallet, p2pServer) {
 
     this.blockchain = blockchain;
-    This.transactionPool = transactionPool;
-    This.wallet = wallet;
-    This.p2pServer = p2pServer;
+    this.transactionPool = transactionPool;
+    this.wallet = wallet;
+    this.p2pServer = p2pServer;
   }
 
   mine() {
@@ -15,7 +15,7 @@ class Miner {
 
     // reward for the Miner
     validTransactions.push(
-      transaction.rewardTransaction(this.wallet, Wallet.blockchainWallet())
+      Transaction.rewardTransaction(this.wallet, Wallet.blockchainWallet())
     );
 
     //create a valid transactions block
